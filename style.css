@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Arial";
+}
+
+ol, ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eYutAzGJ-piQKQOz_-jwMJCtej_mzOpB1dEyGov1cwi7UwRwsvrjSxvlVPVRlhq4e_c&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+#header-text-container{
+	padding: 30px;
+}
+
+#header-text-left{
+	display: flex;
+	width: 120px;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#header-text-right{
+	display: flex;
+	justify-content: flex-end;
+	color: green;
+}
+
+#menu{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#menu li{
+	margin-left: 5px;
+	background-color: green;
+	padding: 5px;
+}
+
+#menu a{
+	color: #fff;
+}
+
+img{
+	height: 400px;
+	border: 1px solid #000;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#content{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+form{
+	height: 500px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: green;
+	color: #fff;
+	text-align: justify;
+}
+
+input[type="number"]{
+	width: 35px;
+}
+
+button{
+	width: 100px;
+	align-self: flex-end;
+}
+
+#text-formatat{
+	display: flex;
+	background-color: limegreen;
+	padding: 20px;
+}
+
+#Part1{
+	width: 85%;
+}
+
+#Part1 h2{
+	text-transform: uppercase;
+}
+
+#formated{
+	display: flex;
+	align-items: center;
+}
+
+.special{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 80px;
+	padding: 20px;
+}
+
+#Part2{
+	text-align: right;
+}
